@@ -1,0 +1,28 @@
+1.bottom-up integration is first tested all the software modules that make up the system, 
+and then they are combined for integration testing. with this approach, the localization of errors 
+is greatly simplified: if the modules are tested separately, the error in their joint work is the problem 
+of their interface. with this approach, the tester’s problem search area is quite narrow, and therefore the 
+probability of correctly identifying a defect is much higher. the disadvantage is the need to develop drivers 
+and plugs for integration testing.  
+
+2.  
+opportunity to log in
+opportunity to change the site language
+when selecting a product, a page with its description opens
+opportunity to open the Shopping Cart
+does the wish list open
+does the today's deals open
+opportunity to see orders
+the ability to go to the tabs: Your Amazon.com, Today's Deals, Gift Cards, Registry, Sell, Help
+how does the search work
+is it possible to browse the goods
+
+
+
+3. I didn’t have to test api before, so happy to learn how to do it.
+
+
+Error 404 - HTTP response code indicating that the client was able to communicate with the server, but the server cannot find the data according to the request.
+Error 503 occurs when the queue length reaches a certain value, the server stops receiving new requests
+To check the API Availability, I would check the performance testing (load, stress, stability). I would also use the Postman application for this test.
+
